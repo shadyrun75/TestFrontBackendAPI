@@ -3,6 +3,6 @@
     public interface IWorker
     {
         IAuthorization Authorization { get; }
-        ITest Test { get; }
+        IKaktus Kaktus { get; }
     }
 }

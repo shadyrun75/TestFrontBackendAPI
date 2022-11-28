@@ -1,0 +1,1 @@
+copy .\bin\Debug\net6.0\DB.SQLite.dll .

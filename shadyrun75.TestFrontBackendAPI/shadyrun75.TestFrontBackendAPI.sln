@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controllers", "src\Controll
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB.SQLite", "src\DB.SQLite\DB.SQLite.csproj", "{1DCCBB30-7E2B-47B8-A38F-BCA6AE8A05C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "src\Interfaces\Interfaces.csproj", "{90935642-16A3-431E-9757-18EFE703A1D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "src\Interfaces\Interfaces.csproj", "{90935642-16A3-431E-9757-18EFE703A1D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

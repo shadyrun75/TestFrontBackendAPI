@@ -11,7 +11,7 @@ namespace shadyrun75.TestFrontBackendAPI.DB.SQLite
         {
             _connectionString = $"Data Source={dbPath};Cache=Shared";
             Authorization = new Authorization(GetConnection);
-            Test = new Test(GetConnection);
+            Kaktus = new Kaktus(GetConnection);
         }
 
         SqliteConnection GetConnection()
@@ -23,6 +23,6 @@ namespace shadyrun75.TestFrontBackendAPI.DB.SQLite
 
         public IAuthorization Authorization { get; }
 
-        public ITest Test { get; }
+        public IKaktus Kaktus { get; }
     }
 }
